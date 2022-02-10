@@ -12,6 +12,7 @@ public class Construct2DArray {
         if(original.length!=m*n){
             return new int[][]{};
         }
+
         for (int i = 0; i < m; i++) {
             int[] row = new int[n];
             for (int j = 0; j < row.length; j++) {
