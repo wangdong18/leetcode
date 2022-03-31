@@ -18,6 +18,7 @@ public class Construct2DArray {
             for (int j = 0; j < row.length; j++) {
                 row[j] = original[i * n  + j];
             }
+
             ints[i] = row;
         }
 
